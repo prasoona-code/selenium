@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.FbLoginTester">
+        <methods>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="testFailingLogin" invocation-numbers="8"/>
+        </methods>
+      </class> <!-- tests.FbLoginTester -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

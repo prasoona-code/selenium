@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import utils.Screenshot;
 
+// using POM-page Factory design pattern
 public class FacebookLogin {
 
 	public WebDriver driver;
@@ -35,12 +36,22 @@ public class FacebookLogin {
 	@FindBy(id = "error_box")
 	WebElement error;
 
+	@FindBy(xpath = "//div[@role='alert']")
+	WebElement errorAlert;
+
+	@FindBy(xpath = "//h2[@class='uiHeaderTitle']")
+	WebElement troubleLogIn;
+
+	@FindBy(xpath = "//a[@title='Profile']")
+	WebElement profile;
+
+	// Constructor
 	public FacebookLogin(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	// This method Open google page
+	// This method Opens google page
 	// searches for facebook
 	// and from search result then opens Facebook login page
 	public WebElement openFbLogin(String data) throws InterruptedException, IOException {
@@ -49,10 +60,10 @@ public class FacebookLogin {
 		try {
 			search.clear();
 			search.sendKeys(data);
-			log.logger.info("Facebook word is typed into search box of google");
+			log.info("Facebook word is typed into search box of google");
 			search.sendKeys(Keys.ENTER);
 			login.click();
-			log.logger.info("Facebook login page is opened");
+			log.info("Facebook login page is opened");
 		} catch (Exception e) {
 			Thread.sleep(3000);
 			log.info("Something is failing");
@@ -71,7 +82,7 @@ public class FacebookLogin {
 
 		try {
 			Thread.sleep(2000);
-			log.info("Before clear");
+			log.info("Username and password are extracted from excel sheet testData1");
 			email.clear();
 			email.sendKeys(username);
 			log.info("UserName : " + username);
@@ -79,7 +90,7 @@ public class FacebookLogin {
 			password.sendKeys(pwd);
 			log.info("Password : " + pwd);
 			loginBtn.click();
-			log.info("After clicking login button");
+			log.info("After clicking login button error message should be displayed");
 			Thread.sleep(10000);
 		} catch (Exception e) {
 			Thread.sleep(10000);
@@ -92,6 +103,17 @@ public class FacebookLogin {
 
 	public WebElement getError() {
 		return error;
+	}
 
+	public WebElement getAlertError() {
+		return errorAlert;
+	}
+
+	public WebElement getTroubleLoginMsg() {
+		return troubleLogIn;
+	}
+
+	public WebElement getProfile() {
+		return profile;
 	}
 }

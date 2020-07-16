@@ -8,7 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BaseClass {
@@ -22,42 +24,49 @@ public class BaseClass {
 	public WebDriver InvokeDriver() throws FileNotFoundException {
 		// print user directory in console
 		System.out.println(ud);
+		log.info(ud);
 		/*
 		 * use getDataProp method to get values of Strings browserName and url from data
 		 * properties
 		 */
+		log.info("------Browser is initialized---");
 		String browserName = getDataProp("browser");
 		String url = getDataProp("url");
 		// Invoking chromedriver
 		if (browserName.equals("chrome")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
 			System.setProperty("webdriver.chrome.driver", ud + "\\drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-			log.logger.info("Chrome opened");
+			driver = new ChromeDriver(options);
+			log.info("Chrome opened");
 		}
 		// invoking FireFox driver
 		else if (browserName.equals("firefox")) {
+			FirefoxOptions options = new FirefoxOptions();
+			options.addArguments("--disable-notifications");
 			System.setProperty("webdriver.gecko.driver", ud + "\\drivers\\geckodriver.exe");
-			driver = new FirefoxDriver();
-			log.logger.info("firefox opened");
+			driver = new FirefoxDriver(options);
+			log.info("firefox opened");
 		}
 		// Invoking Internet Explorer Driver
 		else if (browserName.equals("IE")) {
 			System.setProperty(" webdriver.ie.driver", ud + "\\drivers\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
-			log.logger.info("Internet Explorer opened");
+			log.info("Internet Explorer opened");
 		}
 		// To maximize the window
 		driver.manage().window().maximize();
 		// to open url
 		driver.get(url);
-		log.logger.info("Application Launched");
+		log.info("Application Launched");
 		// Timeouts-Implicit wait time
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 
 	}
 
-	// Method 2: To get data properties from data.properties file which will be used for entire automation testing
+	// Method 2: To get data properties from data.properties file which will be used
+	// for entire automation testing
 
 	public String getDataProp(String key) throws FileNotFoundException {
 		Properties prop = new Properties();
