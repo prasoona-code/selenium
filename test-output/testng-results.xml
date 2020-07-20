@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-13T19:36:23Z" name="Suite" finished-at="2020-07-13T19:38:45Z" duration-ms="141435">
+  <suite started-at="2020-07-20T06:16:40Z" name="Default suite" finished-at="2020-07-20T06:19:19Z" duration-ms="158691">
     <groups>
     </groups>
-    <test started-at="2020-07-13T19:36:23Z" name="Test" finished-at="2020-07-13T19:38:45Z" duration-ms="141435">
+    <test started-at="2020-07-20T06:16:40Z" name="Default test" finished-at="2020-07-20T06:19:19Z" duration-ms="158691">
       <class name="tests.FbLoginTester">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:36:23Z" name="SetUp" finished-at="2020-07-13T19:36:31Z" duration-ms="8151" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:16:40Z" name="SetUp" finished-at="2020-07-20T06:16:48Z" duration-ms="7990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="getFBPage()[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:36:31Z" name="getFBPage" finished-at="2020-07-13T19:36:37Z" duration-ms="5900" status="PASS">
+        <test-method signature="getFBPage()[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:16:48Z" name="getFBPage" finished-at="2020-07-20T06:16:54Z" duration-ms="6239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getFBPage -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:36:38Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:36:52Z" duration-ms="13290" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:16:55Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:17:38Z" duration-ms="42308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:36:52Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:37:05Z" duration-ms="13771" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:17:38Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:17:50Z" duration-ms="12040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:37:05Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:37:19Z" duration-ms="13874" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:17:50Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:18:02Z" duration-ms="12096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:37:19Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:37:33Z" duration-ms="13916" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:18:02Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:18:14Z" duration-ms="12277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:37:33Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:37:47Z" duration-ms="14095" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:18:14Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:18:27Z" duration-ms="12790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[prasoona@testcase.com]]>
+                <![CDATA[alphatestcase2020@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:37:47Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:38:02Z" duration-ms="14422" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:18:27Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:18:40Z" duration-ms="12588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,23 +111,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:38:02Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:38:16Z" duration-ms="14131" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:18:40Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:18:52Z" duration-ms="12754" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[prasoona@testcase.com]]>
+                <![CDATA[alphatestcase2020@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[incorrectpassword]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:38:16Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:38:30Z" duration-ms="13839" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:18:52Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:19:05Z" duration-ms="12533" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,27 +143,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:38:30Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-13T19:38:44Z" duration-ms="14109" status="PASS">
+        <test-method signature="testFailingLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:19:05Z" name="testFailingLogin" data-provider="getExcelTestData" finished-at="2020-07-20T06:19:18Z" duration-ms="12913" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[prasoona@testcase.com]]>
+                <![CDATA[alphatestcase2020@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testcase2]]>
+                <![CDATA[Alpha@2020]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailingLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FbLoginTester@1e4d3ce5]" started-at="2020-07-13T19:38:44Z" name="teardown" finished-at="2020-07-13T19:38:45Z" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FbLoginTester@1acaf3d]" started-at="2020-07-20T06:19:18Z" name="teardown" finished-at="2020-07-20T06:19:19Z" duration-ms="884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.FbLoginTester -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

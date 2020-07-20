@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="SetUp"/>
-          <include name="testFailingLogin" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="testFailingLogin" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
         </methods>
       </class> <!-- tests.FbLoginTester -->
     </classes>

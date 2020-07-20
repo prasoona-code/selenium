@@ -2,6 +2,7 @@ package pages;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,7 +34,7 @@ public class FacebookLogin {
 	@FindBy(id = "loginbutton")
 	WebElement loginBtn;
 
-	@FindBy(id = "error_box")
+	@FindBy(xpath = "//div[@id='error_box']/div[1]")
 	WebElement error;
 
 	@FindBy(xpath = "//div[@role='alert']")
@@ -42,8 +43,8 @@ public class FacebookLogin {
 	@FindBy(xpath = "//h2[@class='uiHeaderTitle']")
 	WebElement troubleLogIn;
 
-	@FindBy(xpath = "//a[@title='Profile']")
-	WebElement profile;
+	@FindBy(xpath = "//ul/li[@id='navItem_100053619095961']/a/div")
+	WebElement element;
 
 	// Constructor
 	public FacebookLogin(WebDriver driver) {
@@ -81,7 +82,6 @@ public class FacebookLogin {
 		driver.navigate().refresh();
 
 		try {
-			Thread.sleep(2000);
 			log.info("Username and password are extracted from excel sheet testData1");
 			email.clear();
 			email.sendKeys(username);
@@ -114,6 +114,7 @@ public class FacebookLogin {
 	}
 
 	public WebElement getProfile() {
-		return profile;
+		return element;
 	}
+
 }

@@ -1,0 +1,122 @@
+2020-07-19 22:48:08 INFO  Log4j:21 - C:\Users\Santosh\Desktop\Aparna\Selenium\fbLogin
+  2020-07-19 22:48:08 INFO  Log4j:21 - ------Browser is initialized---
+  2020-07-19 22:48:12 INFO  Log4j:21 - Chrome opened
+  2020-07-19 22:48:16 INFO  Log4j:21 - Application Launched
+  2020-07-19 22:48:16 INFO  Log4j:21 - Facebook word is typed into search box of google
+  2020-07-19 22:48:21 INFO  Log4j:21 - Facebook login page is opened
+  2020-07-19 22:48:21 INFO  Log4j:21 - Facebook LogIn page is opened
+  2020-07-19 22:48:23 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:48:23 INFO  Log4j:21 - UserName : 
+  2020-07-19 22:48:23 INFO  Log4j:21 - Password : 
+  2020-07-19 22:48:34 INFO  Log4j:21 - Something is failing below is error details
+  2020-07-19 22:48:34 INFO  Log4j:21 - stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLDJSFT', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Santosh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62443}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff4ab46ce574ecfcd76d2dd6f78aa306
+  2020-07-19 22:48:35 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:48:36 INFO  Log4j:21 - UserName : 
+  2020-07-19 22:48:37 INFO  Log4j:21 - Password : testcase2
+  2020-07-19 22:48:37 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:48:47 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:48:48 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:48:48 INFO  Log4j:21 - UserName : 
+  2020-07-19 22:48:48 INFO  Log4j:21 - Password : testcase
+  2020-07-19 22:48:48 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:48:58 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:49:00 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:49:00 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 22:49:00 INFO  Log4j:21 - Password : 
+  2020-07-19 22:49:00 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:49:10 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:49:13 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:49:13 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 22:49:13 INFO  Log4j:21 - Password : 
+  2020-07-19 22:49:13 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:49:23 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:49:25 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:49:25 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 22:49:25 INFO  Log4j:21 - Password : incorrectpassword
+  2020-07-19 22:49:25 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:49:36 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:49:37 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:49:37 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 22:49:38 INFO  Log4j:21 - Password : incorrectpassword
+  2020-07-19 22:49:38 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:49:48 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:49:50 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:49:50 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 22:49:50 INFO  Log4j:21 - Password : testcase2
+  2020-07-19 22:49:50 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:50:00 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 22:50:02 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 22:50:03 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 22:50:03 INFO  Log4j:21 - Password : Alpha@2020
+  2020-07-19 22:50:03 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 22:50:13 INFO  Log4j:21 - Vani Beta
+  2020-07-19 22:50:13 INFO  Log4j:21 - Login is successful, Valid credentials
+  2020-07-19 23:16:40 INFO  Log4j:21 - C:\Users\Santosh\Desktop\Aparna\Selenium\fbLogin
+  2020-07-19 23:16:40 INFO  Log4j:21 - ------Browser is initialized---
+  2020-07-19 23:16:44 INFO  Log4j:21 - Chrome opened
+  2020-07-19 23:16:48 INFO  Log4j:21 - Application Launched
+  2020-07-19 23:16:48 INFO  Log4j:21 - Facebook word is typed into search box of google
+  2020-07-19 23:16:53 INFO  Log4j:21 - Facebook login page is opened
+  2020-07-19 23:16:53 INFO  Log4j:21 - Facebook LogIn page is opened
+  2020-07-19 23:16:57 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:16:57 INFO  Log4j:21 - UserName : 
+  2020-07-19 23:16:57 INFO  Log4j:21 - Password : 
+  2020-07-19 23:16:58 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:17:38 INFO  Log4j:21 - ----no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='error_box']/div[1]"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HLDJSFT', ip: '192.168.81.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Santosh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 26f239f3b5b8c37bd8b144ca69442151
+*** Element info: {Using=xpath, value=//div[@id='error_box']/div[1]}-----
+  2020-07-19 23:17:38 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:17:39 INFO  Log4j:21 - UserName : 
+  2020-07-19 23:17:39 INFO  Log4j:21 - Password : testcase2
+  2020-07-19 23:17:39 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:17:49 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:17:51 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:17:51 INFO  Log4j:21 - UserName : 
+  2020-07-19 23:17:51 INFO  Log4j:21 - Password : testcase
+  2020-07-19 23:17:51 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:18:01 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:18:03 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:18:03 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 23:18:03 INFO  Log4j:21 - Password : 
+  2020-07-19 23:18:03 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:18:13 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:18:16 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:18:16 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 23:18:16 INFO  Log4j:21 - Password : 
+  2020-07-19 23:18:16 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:18:26 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:18:28 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:18:29 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 23:18:29 INFO  Log4j:21 - Password : incorrectpassword
+  2020-07-19 23:18:29 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:18:39 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:18:41 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:18:41 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 23:18:41 INFO  Log4j:21 - Password : incorrectpassword
+  2020-07-19 23:18:42 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:18:52 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:18:54 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:18:54 INFO  Log4j:21 - UserName : incorrectusername
+  2020-07-19 23:18:54 INFO  Log4j:21 - Password : testcase2
+  2020-07-19 23:18:54 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:19:04 INFO  Log4j:21 - Error Alert for username/Password is displayed
+  2020-07-19 23:19:06 INFO  Log4j:21 - Username and password are extracted from excel sheet testData1
+  2020-07-19 23:19:07 INFO  Log4j:21 - UserName : alphatestcase2020@gmail.com
+  2020-07-19 23:19:07 INFO  Log4j:21 - Password : Alpha@2020
+  2020-07-19 23:19:07 INFO  Log4j:21 - After clicking login button error message should be displayed
+  2020-07-19 23:19:17 INFO  Log4j:21 - Vani Beta
+  2020-07-19 23:19:17 INFO  Log4j:21 - Login is successful, Valid credentials
+  

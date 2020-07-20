@@ -43,32 +43,38 @@ public class FbLoginTester extends BaseClass {
 
 	@Test(dataProvider = "getExcelTestData")
 	public void testFailingLogin(String username, String pwd) throws IOException, InterruptedException {
-		String logInA = getDataProp("loginAttempt"); // login attempt fail partial url
-		// String SuccessfulLogin = getDataProp("loginSuccess");
-		String loginAttemptUrl = fbUrl + logInA;
-		// String loginSuccessUrl = fbUrl + SuccessfulLogin;
 		fb.credentials(username, pwd);
 		try {
-			if (fb.getError().isDisplayed()) {
-				Assert.assertTrue(fb.getError().isDisplayed());
-				log.info("Error message is displayed");
-				s.getScreenshot();
-			} else if (fb.getAlertError().isDisplayed()) {
-				Assert.assertTrue(fb.getAlertError().isDisplayed());
-				log.info("Error Alert for username/Password is displayed");
-				s.getScreenshot();
-			} else if (fb.getProfile().isDisplayed()) {
-				s.getScreenshot();
-			} else if (driver.getCurrentUrl().matches(loginAttemptUrl)) {
-				if (fb.getTroubleLoginMsg().isDisplayed()) {
-					Assert.assertTrue(fb.getTroubleLoginMsg().isDisplayed());
-					log.info("------" + fb.getTroubleLoginMsg().getText());
+			if (driver.getCurrentUrl().equalsIgnoreCase(fbUrl + getDataProp("loginAttempt110"))) {
+				if (fb.getAlertError().isDisplayed()) {
+					Assert.assertTrue(fb.getAlertError().isDisplayed());
+					log.info("Error Alert for username/Password is displayed");
+					s.getScreenshot();
+				} else if (fb.getError().isDisplayed()) {
+					Assert.assertTrue(fb.getError().isDisplayed());
+					log.info("Error message is displayed");
 					s.getScreenshot();
 				}
-			} else
-				log.info("No error message is displayed");
+			} else if (driver.getCurrentUrl().equalsIgnoreCase(fbUrl + getDataProp("loginAttempt100"))) {
+				if (fb.getAlertError().isDisplayed()) {
+					Assert.assertTrue(fb.getAlertError().isDisplayed());
+					log.info("Error Alert for username/Password is displayed");
+					s.getScreenshot();
+				} else if (fb.getError().isDisplayed()) {
+					Assert.assertTrue(fb.getError().isDisplayed());
+					log.info("Error message is displayed");
+					s.getScreenshot();
+				}
+			} else if (driver.getCurrentUrl().equalsIgnoreCase(fbUrl + getDataProp("loginSuccess"))) {
+				if (fb.getProfile().isDisplayed()) {
+					log.info(fb.getProfile().getText());
+					log.info("Login is successful, Valid credentials");
+					s.getScreenshot();
+				}
+
+			}
 		} catch (NoSuchElementException e) {
-			log.info("----" + e.getMessage() + "------");
+			log.info("----" + e.getMessage() + "-----");
 		}
 	}
 
